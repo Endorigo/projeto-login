@@ -3,5 +3,41 @@
 /* 
 Paletas de cores
 
+#010326 - azul escuro
+#00010D - preto
+#F2F1DF - branco sujo
+#D98841 - marrom claro
+#592202 - marrom escuro
 
 */
+
+:root {
+    --cor0: #f2f1df;
+    --cor1: #D98841;
+    --cor2: #592202;
+    --cor3: #010326;
+    --cor4: #00010D;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html,
+body {
+
+    background-image: linear-gradient(to right, var(--cor4), var(--cor3));
+    color: var(--cor0);
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: bolder;
+}
+
+main {}
+
+section#login {}
+
+div#imagem {}
+
+div#formulario {}
