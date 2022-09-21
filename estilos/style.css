@@ -56,7 +56,7 @@ section#login {
     border-radius: 20px;
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.514);
 
-    transition: width 0.3s, height 0.3s;
+    transition: width 0.2s, height 0.2s;
     transition-timing-function: ease;
 }
 
@@ -72,4 +72,13 @@ div#formulario {
     display: block;
     padding: 10px;
 
+}
+
+div#formulario>h1 {
+    text-align: center justify;
+    margin-bottom: 10px;
+}
+
+div#formulario>p {
+    font-size: 0.8em;
 }
