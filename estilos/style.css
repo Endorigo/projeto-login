@@ -29,7 +29,7 @@ Paletas de cores
 html,
 body {
 
-    background-color: var(--cor2);
+    background-image: linear-gradient(to top, #D98841, #592202);
     height: 100vh;
     width: 100vw;
 
